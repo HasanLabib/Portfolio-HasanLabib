@@ -1,0 +1,449 @@
+[
+  {
+    "id": "local-food-lovers-network",
+    "name": "Local Food Lovers Network",
+    "type": "Web Application",
+    "category": "Full Stack MERN Project",
+
+    "card": {
+      "thumbnail": "https://i.ibb.co/9kjGxd3S/image.png",
+      "shortDescription": "A full-featured MERN platform for discovering, reviewing, and managing local food experiences with a role-based dashboard.",
+      "viewDetailsText": "View Project"
+    },
+
+    "ui": {
+      "hero": {
+        "image": "https://i.ibb.co/9kjGxd3S/image.png",
+        "badge": "Full Stack MERN Application"
+      },
+
+      "meta": {
+        "timeline": "4 Weeks",
+        "role": "Full Stack Developer",
+        "team": "Solo Project"
+      },
+
+      "navigation": {
+        "previous": {
+          "id": "battleship-game",
+          "title": "Battleship Game"
+        },
+        "next": {
+          "id": "javascript-calculator",
+          "title": "JavaScript Calculator"
+        }
+      }
+    },
+
+    "details": {
+      "description": "Local Food Lovers Network is a production-ready MERN stack application designed to connect food enthusiasts through reviews, ratings, and local food discovery. The platform includes authentication, role-based dashboards, protected routes, real-time analytics, and a scalable backend architecture. It emphasizes clean UI, real backend data, and professional dashboard workflows.",
+
+      "links": {
+        "liveSite": "https://graceful-fairy-3f4ad4.netlify.app/",
+        "clientRepo": "https://github.com/HasanLabib/Programming-hero-Assignment-10-Client.git",
+        "serverRepo": "https://github.com/HasanLabib/Programming-hero-Assignment-10-server.git"
+      },
+
+      "technologyStack": {
+        "frontend": [
+          "React",
+          "Tailwind CSS",
+          "React Router",
+          "Firebase Authentication",
+          "Recharts / Chart.js"
+        ],
+        "backend": ["Node.js", "Express.js", "MongoDB", "JWT Authentication"],
+        "tools": ["Vite", "Netlify", "Vercel", "Firebase", "MongoDB Atlas"]
+      },
+
+      "features": [
+        {
+          "icon": "search",
+          "title": "Advanced Search",
+          "description": "Server-side MongoDB regex search for quickly finding food reviews."
+        },
+        {
+          "icon": "favorite",
+          "title": "Favorites System",
+          "description": "Users can save favorite food reviews in a dedicated MongoDB collection."
+        },
+        {
+          "icon": "shield",
+          "title": "Role-Based Access",
+          "description": "Protected routes and dashboard access based on user and admin roles."
+        },
+        {
+          "icon": "Insights",
+          "title": "Real-Time Analytics",
+          "description": "Dynamic charts and statistics powered by real backend data."
+        },
+        {
+          "icon": "Rsvp",
+          "title": "Responsive UI",
+          "description": "Optimized for mobile, tablet, and desktop devices."
+        }
+      ],
+
+      "dashboard": {
+        "layout": {
+          "description": "Dedicated dashboard layout with a sticky top navbar, profile dropdown, and role-based sidebar navigation.",
+          "topNavbar": ["Dashboard Home", "Profile", "Logout"],
+          "sidebar": {
+            "userRole": ["Dashboard Overview", "My Reviews", "My Favorites"],
+            "adminRole": [
+              "Dashboard Overview",
+              "All Reviews",
+              "User Management",
+              "Analytics Overview"
+            ]
+          }
+        },
+
+        "overview": {
+          "cards": [
+            "Total Reviews",
+            "User Reviews",
+            "Favorite Items",
+            "Average Rating"
+          ],
+          "charts": [
+            "Reviews by Rating (Bar Chart)",
+            "Reviews Over Time (Line Chart)",
+            "Category Distribution (Pie Chart)"
+          ],
+          "dataTable": "Dynamic data table populated from MongoDB showing recent reviews and user activity."
+        },
+
+        "profilePage": {
+          "layout": "Full-width layout",
+          "features": [
+            "View profile information",
+            "Edit profile details",
+            "Update profile image",
+            "Display user role (User / Admin)"
+          ]
+        }
+      },
+
+      "challenges": [
+        "Designing a scalable role-based dashboard layout",
+        "Managing secure authentication and authorization",
+        "Keeping dashboard analytics in sync with backend data",
+        "Maintaining UI consistency across public and private pages"
+      ],
+
+      "solutions": [
+        "Implemented JWT-based route protection and role guards",
+        "Built reusable dashboard components and sidebar logic",
+        "Used MongoDB aggregation pipelines for analytics",
+        "Standardized UI components for cards, charts, and tables"
+      ],
+
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Admin Moderation Tools",
+          "description": "Add approval and moderation workflows for reviews."
+        },
+        {
+          "step": 2,
+          "title": "Analytics Export",
+          "description": "Allow admins to export reports as CSV or PDF."
+        },
+        {
+          "step": 3,
+          "title": "Notifications System",
+          "description": "Notify users about review activity and admin actions."
+        }
+      ]
+    }
+  },
+  {
+    "id": "hero-apps",
+    "name": "Hero Apps",
+    "type": "Web Application",
+    "category": "Frontend React Project",
+
+    "card": {
+      "thumbnail": "https://i.ibb.co/VPP3TJj/image.png",
+      "shortDescription": "A responsive React application for exploring hero apps, viewing ratings, installation details, and managing installed apps with a clean modern UI.",
+      "viewDetailsText": "View Project"
+    },
+
+    "ui": {
+      "hero": {
+        "image": "https://i.ibb.co/VPP3TJj/image.png",
+        "badge": "React Application"
+      },
+
+      "meta": {
+        "timeline": "2 Weeks",
+        "role": "Frontend Developer",
+        "team": "Solo Project"
+      },
+
+      "navigation": {
+        "previous": {
+          "id": "local-food-lovers-network",
+          "title": "Local Food Lovers Network"
+        },
+        "next": {
+          "id": "battleship-game",
+          "title": "Battleship Game"
+        }
+      }
+    },
+
+    "details": {
+      "description": "Hero Apps is a modern, responsive React-based web application developed for Hero IO Technologies Ltd. The platform allows users to explore hero applications, view ratings and installation details, and manage installed apps using local storage. The project emphasizes clean UI, smooth client-side navigation, loading animations, and an engaging user experience across all devices.",
+
+      "links": {
+        "liveSite": "https://b12-a08-hero-apps-hasanlabib.netlify.app/",
+        "clientRepo": "https://github.com/HasanLabib/Programming-hero-Assignment-B12-A08-Hero-Apps.git"
+      },
+
+      "technologyStack": {
+        "frontend": [
+          "React",
+          "React Router",
+          "JavaScript (ES6+)",
+          "Tailwind CSS"
+        ],
+        "backend": [],
+        "tools": [
+          "Vite",
+          "Netlify",
+          "SweetAlert / React Hot Toast",
+          "React Loading Indicators"
+        ]
+      },
+
+      "features": [
+        {
+          "icon": "apps",
+          "title": "App Exploration",
+          "description": "Browse a collection of hero applications with detailed information and ratings."
+        },
+        {
+          "icon": "star",
+          "title": "Ratings & Reviews",
+          "description": "Visualize app reviews and ratings using responsive charts."
+        },
+        {
+          "icon": "download",
+          "title": "Install Management",
+          "description": "Install apps and persist installation status using localStorage."
+        },
+        {
+          "icon": "notifications",
+          "title": "Toast Notifications",
+          "description": "Instant feedback for user actions using toast and alert systems."
+        },
+        {
+          "icon": "Rsvp",
+          "title": "Fully Responsive UI",
+          "description": "Optimized layout for mobile, tablet, and desktop devices."
+        }
+      ],
+
+      "dashboard": {
+        "layout": {
+          "description": "Simple app-focused layout with header navigation, dynamic pages, and smooth transitions between routes.",
+          "topNavbar": ["Home", "All Apps", "My Installations"],
+          "sidebar": {
+            "userRole": [],
+            "adminRole": []
+          }
+        },
+
+        "overview": {
+          "cards": ["Total Apps", "Installed Apps", "Top Rated Apps"],
+          "charts": ["App Ratings Chart"],
+          "dataTable": "App list rendered from a local JSON object with dynamic filtering and search."
+        },
+
+        "profilePage": {
+          "layout": "Not Applicable",
+          "features": []
+        }
+      },
+
+      "challenges": [
+        "Managing installation state persistently using localStorage",
+        "Implementing smooth loading animations on navigation and search",
+        "Handling empty states and invalid routes gracefully",
+        "Maintaining responsive UI consistency across devices"
+      ],
+
+      "solutions": [
+        "Used localStorage to track installed apps and disable install buttons",
+        "Implemented route-based and search-based loading animations",
+        "Designed reusable components with conditional rendering",
+        "Leveraged Tailwind CSS for consistent responsive styling"
+      ],
+
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "User Accounts",
+          "description": "Allow users to sign in and sync installed apps across devices."
+        },
+        {
+          "step": 2,
+          "title": "Advanced Filtering",
+          "description": "Add category and rating-based filters for apps."
+        },
+        {
+          "step": 3,
+          "title": "App Update Notifications",
+          "description": "Notify users when installed apps receive updates."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pet-x-winter-care",
+    "name": "Pet-X – Pet Care in Winter",
+    "type": "Web Application",
+    "category": "Frontend React SPA",
+
+    "card": {
+      "thumbnail": "https://i.ibb.co/Pskt0F7Q/image.png",
+      "shortDescription": "A cozy, winter-focused pet care platform that helps pet owners explore services, book care securely, and learn expert winter tips through a modern SPA.",
+      "viewDetailsText": "View Project"
+    },
+
+    "ui": {
+      "hero": {
+        "image": "https://i.ibb.co/Pskt0F7Q/image.png",
+        "badge": "Winter Pet Care Platform"
+      },
+
+      "meta": {
+        "timeline": "3 Weeks",
+        "role": "Frontend Developer",
+        "team": "Solo Project"
+      },
+
+      "navigation": {
+        "previous": {
+          "id": "hero-apps",
+          "title": "Hero Apps"
+        },
+        "next": {
+          "id": "local-food-lovers-network",
+          "title": "Local Food Lovers Network"
+        }
+      }
+    },
+
+    "details": {
+      "description": "Pet-X is a modern, winter-themed single-page application designed to help pet owners keep their furry companions warm, safe, and healthy during cold seasons. The platform offers curated winter pet care services, expert advice, secure booking via protected routes, and a smooth, responsive user experience enhanced with animations and toast notifications.",
+
+      "links": {
+        "liveSite": "https://b12-a9-pet-x-hasanlabib.netlify.app",
+        "clientRepo": "https://github.com/HasanLabib/Pet-X.git"
+      },
+
+      "technologyStack": {
+        "frontend": ["React", "React Router DOM", "Tailwind CSS", "DaisyUI"],
+        "backend": ["Firebase Authentication"],
+        "tools": [
+          "Vite",
+          "Netlify",
+          "Swiper.js",
+          "AOS",
+          "Framer Motion",
+          "React Hot Toast",
+          "React Icons"
+        ]
+      },
+
+      "features": [
+        {
+          "icon": "pets",
+          "title": "Winter Pet Services",
+          "description": "Explore curated winter pet care services including grooming, clothing, and health support."
+        },
+        {
+          "icon": "lock",
+          "title": "Protected Routes",
+          "description": "Secure service details and booking pages accessible only after authentication."
+        },
+        {
+          "icon": "event_available",
+          "title": "Service Booking",
+          "description": "Book pet care services with instant success notifications and form validation."
+        },
+        {
+          "icon": "tips_and_updates",
+          "title": "Winter Care Tips",
+          "description": "Learn expert-recommended winter care tips to keep pets safe and healthy."
+        },
+        {
+          "icon": "animation",
+          "title": "Smooth Animations",
+          "description": "Enhanced user experience using Swiper, AOS, and Framer Motion animations."
+        }
+      ],
+
+      "dashboard": {
+        "layout": {
+          "description": "SPA layout with persistent navbar and footer, route-based content loading, and authentication-aware navigation.",
+          "topNavbar": ["Home", "Services", "My Profile"],
+          "sidebar": {
+            "userRole": [],
+            "adminRole": []
+          }
+        },
+
+        "overview": {
+          "cards": ["Total Services", "Booked Services", "Expert Vets"],
+          "charts": [],
+          "dataTable": "Winter pet care services rendered dynamically from a JSON file."
+        },
+
+        "profilePage": {
+          "layout": "Centered profile layout",
+          "features": [
+            "View user name, email, and profile photo",
+            "Update profile name and image using Firebase updateProfile()",
+            "Secure logout functionality"
+          ]
+        }
+      },
+
+      "challenges": [
+        "Implementing protected routes with redirect-after-login behavior",
+        "Managing Firebase authentication securely using environment variables",
+        "Ensuring reload-safe SPA deployment on Netlify",
+        "Handling profile updates and password reset flows smoothly"
+      ],
+
+      "solutions": [
+        "Used Firebase Authentication with private routes and auth context",
+        "Secured Firebase keys using environment variables",
+        "Configured Netlify redirects for SPA reload safety",
+        "Implemented toast notifications and form validation for UX feedback"
+      ],
+
+      "roadmap": [
+        {
+          "step": 1,
+          "title": "Advanced Service Filtering",
+          "description": "Add category-based and rating-based filters for pet services."
+        },
+        {
+          "step": 2,
+          "title": "Appointment History",
+          "description": "Allow users to view previously booked services."
+        },
+        {
+          "step": 3,
+          "title": "Vet Messaging System",
+          "description": "Enable direct communication between pet owners and expert vets."
+        }
+      ]
+    }
+  }
+]
