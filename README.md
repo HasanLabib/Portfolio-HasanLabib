@@ -1,4 +1,4 @@
-# Jensen Omega Portfolio - React Version
+# S. M. Hasan Imtiaz Labib Portfolio - React Version
 
 This is a React conversion of Jensen Omega's portfolio website, maintaining the exact same styling and design while converting from static HTML to a dynamic React application.
 
